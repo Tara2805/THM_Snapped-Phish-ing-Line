@@ -85,3 +85,13 @@ Search the url of *kennaroads.buzz* on VirusTotal and find the date listed
 ### Flag 
 2020-** **
 
+## Q8
+What was the email address of the user who submitted their password twice?
+### Answer
+If we go to the /Update 365 directory of the *kennaroads.buzz* url we are greeted by a log.txt file available for viewing. Click and open it. It is a file containing the logs of all those who have fallen for the phishing scam. It has stored all their actions/entries. Go through the list and see the log which has the same user. 
+
+![alt text](/Images/q8.png)
+
+### Flag
+Found in the log.txt file
+
