@@ -12,5 +12,14 @@ Retrieving the phishing kit used by the adversary.
 Using CTI-related tooling to gather more information about the adversary.
 Analysing the phishing kit to gather more information about the adversary.
 
+## Q1
+Who is the individual who received an email attachment containing a PDF?
+## Answer
+Open the directory named phish-emails. There is a total of 5 emails seen.
+Investigate the contents of the files to get the flag
 
+![alt text](/Images/q1.png)
+
+### Flag
+William McClean
 
