@@ -43,3 +43,14 @@ Then Use <a href="https://cyberchef.io/#recipe=Defang_URL(true,true,true,'Valid%
 hxxp[://]kennaroads[.]buzz/data/Update365/office365/40e7baa2f826a57fcf04e5202526f8bd/?email=zoe[.]duncan@swiftspend[.]finance&error
 
 ## Q4 
+What is the URL to the .zip archive of the phishing kit? (defanged format)
+### Answer
+Lets visit http://kennaroads.buzz/data/
+
+![alt text](/Images/q4a.png)
+
+We see a .zip file. Right-click the file and copy the URL. Defang it using CyberChef and submit the flag.
+### Flag
+hxxp[://]kennaroads[.]buzz/data/Update365[.]zip
+
+## Q5
