@@ -29,3 +29,17 @@ What email address was used by the adversary to send the phishing emails?
 Search the contents of the emails we found.
 ### Flag
 Accounts.Payable@groupmarketingonline.icu
+
+## Q3
+What is the redirection URL to the phishing page for the individual Zoe Duncan? (defanged format)
+### Answer
+Find the email sent to Zoe by reading the emails again. Open the .html file attached in a text editor. 
+
+![alt text](/Images/q3.png)
+
+Then Use <a href="https://cyberchef.io/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')">Cyber Chef</a> to defang the URL and get the flag
+
+### Flag
+hxxp[://]kennaroads[.]buzz/data/Update365/office365/40e7baa2f826a57fcf04e5202526f8bd/?email=zoe[.]duncan@swiftspend[.]finance&error
+
+## Q4 
