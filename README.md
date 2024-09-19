@@ -14,7 +14,7 @@ Analysing the phishing kit to gather more information about the adversary.
 
 ## Q1
 Who is the individual who received an email attachment containing a PDF?
-## Answer
+### Answer
 Open the directory named phish-emails. There is a total of 5 emails seen.
 Investigate the contents of the files to get the flag
 
@@ -23,3 +23,9 @@ Investigate the contents of the files to get the flag
 ### Flag
 William McClean
 
+## Q2
+What email address was used by the adversary to send the phishing emails?
+### Answer
+Search the contents of the emails we found.
+### Flag
+Accounts.Payable@groupmarketingonline.icu
