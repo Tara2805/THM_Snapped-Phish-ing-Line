@@ -95,3 +95,27 @@ If we go to the /Update 365 directory of the *kennaroads.buzz* url we are greete
 ### Flag
 Found in the log.txt file
 
+## Q9
+What was the email address used by the adversary to collect compromised credentials?
+### Answer
+Download and unzip the Update.365.zip file. Then we need to use grep. 
+    grep -E -r -o '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' /home/damianhall/Downloads/Update365
+
+This will search for all emails in the unzipped folders files
+
+So we got lots of instances but only 3 unqiue emails.
+
+![alt text](/Images/q9.png)
+
+The script that seems to collect the compromised data is /submit.php so the answer is the email which has access to this.
+
+### Flag
+Seen in image
+
+## Q10
+The adversary used other email addresses in the obtained phishing kit. What is the email address that ends in "@gmail.com"?
+### Answer
+We already have this from the previous grep search
+### Flag
+****@gmail.com
+
