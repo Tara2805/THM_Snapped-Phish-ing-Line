@@ -79,3 +79,9 @@ Select the details pane and read through the content to find the date/time stamp
 2020-04-08 21:55:50 UTC
 
 ## Q7
+When was the SSL certificate the phishing domain used to host the phishing kit archive first logged? (format: YYYY-MM-DD)
+### Answer
+Search the url of *kennaroads.buzz* on VirusTotal and find the date listed
+### Flag 
+2020-** **
+
