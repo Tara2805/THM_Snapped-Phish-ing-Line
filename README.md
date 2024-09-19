@@ -119,3 +119,15 @@ We already have this from the previous grep search
 ### Flag
 ****@gmail.com
 
+# Q11
+What is the hidden flag?
+### Answer
+Go back to the /update365 url directory. If we try and open /open365 here we get a *Not Found*. 
+
+Enumerating the sub-directories provides a flag.txt file which contains the flag encoded in base64. Lets use CyberChef to decode it!
+
+![alt text](/Images/q11.png)
+
+By using "from base64" on cyberchef we get a flag, but its reveresed! so add "reverse" to the cyberchef recipe to get the flag. 
+### Flag
+THM{****_****_***_***}
