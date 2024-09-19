@@ -64,4 +64,18 @@ Download the zip archive on the THM VM and open the terminal and cd into the Dow
 ### Flag
 ba3c15267393419eb08c7b2652b8b6b39b406ef300ae8a18fee4d16b19ac9686
 
-# Q6
+## Q6
+When was the phishing kit archive first submitted? (format: YYYY-MM-DD HH:MM:SS UTC)
+### Answer
+We need to use virusTotal for this one. Head on over to <a href="https://www.virustotal.com/gui/home/upload"> it </a>.
+
+Paste in the hash value we found earlier into the search bar
+
+![alt text](/Images/q6.png)
+
+Select the details pane and read through the content to find the date/time stamp of the first submission
+### Flag
+
+2020-04-08 21:55:50 UTC
+
+## Q7
