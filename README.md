@@ -54,3 +54,14 @@ We see a .zip file. Right-click the file and copy the URL. Defang it using Cyber
 hxxp[://]kennaroads[.]buzz/data/Update365[.]zip
 
 ## Q5
+What is the SHA256 hash of the phishing kit archive?
+### Answer
+Download the zip archive on the THM VM and open the terminal and cd into the Downloads folder. Then get the hash using the following command:
+    sha256sum file.zip
+
+![alt text](/Images/Q5.png)
+
+### Flag
+ba3c15267393419eb08c7b2652b8b6b39b406ef300ae8a18fee4d16b19ac9686
+
+# Q6
